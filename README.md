@@ -14,7 +14,7 @@ See all available commands:
 docker run -it capgemini:dcos-cli
 ```
 
-This image provides some values by default for your DCOS CLI config.
+This image provides some values by default for your DCOS CLI config:
 
 ```bash
 DCOS_CONFIG=/dcos-cli/.dcos/dcos.toml
@@ -36,4 +36,4 @@ docker run -v `pwd`/chronos_config:/config \
 
 ### Why?
 
-This Docker image allows us to run DCOS CLI commands from any server using automation provisioning tools like Ansible with no necessity to install DCOS at runtime and without adding any dependency to our base images.
+This Docker image allows to run DCOS CLI commands from any server using automation provisioning tools like [Ansible](http://www.ansible.com/) with no necessity to install DCOS at runtime and without adding any dependency to our base images.
