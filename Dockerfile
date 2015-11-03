@@ -2,7 +2,7 @@ FROM alpine:latest
 MAINTAINER Alberto Lamela <alberto.lamela@capgemini.com>
 
 ENV DCOS_CONFIG=/dcos-cli/.dcos/dcos.toml
-ENV DCOS_CLI_VERSION=0.1.2
+ENV DCOS_CLI_VERSION=0.1.14
 
 RUN apk --update add \
 		bash \
