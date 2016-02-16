@@ -10,7 +10,7 @@ RUN apk --update add \
 		python \
 		py-pip
 
-RUN pip install virtualenv==13.1.0
+RUN pip install virtualenv==14.0.6
 
 RUN mkdir /dcos-cli
 RUN mkdir /dcos-cli/.dcos
