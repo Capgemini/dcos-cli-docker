@@ -11,7 +11,7 @@ A simple Docker image based on [Alpine](https://registry.hub.docker.com/_/alpine
 See all available commands:
 
 ```bash
-docker run -it capgemini:dcos-cli
+docker run -it capgemini/dcos-cli
 ```
 
 This image provides some values by default for your DCOS CLI config:
